@@ -24,7 +24,7 @@
     "@babel/runtime": "7.0.0-beta.55"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=9999 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +38,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "http://localhost:3003"
+  "proxy": "http://localhost:4000"
 }
